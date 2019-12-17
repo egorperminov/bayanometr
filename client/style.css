@@ -1,0 +1,69 @@
+*, *::before, *::after,html,body {
+    box-sizing: border-box;
+    font-family: inherit;
+}
+
+body {
+    margin: 0 auto;
+    max-width: 800px;
+
+    color: #e3e3e3;
+    font-family: 'Oswald', sans-serif;
+
+    background-color: #233142;
+}
+
+.client-input {
+    display: flex;
+}
+
+.image-input-label {
+    display: flex;
+    flex-direction: column;
+}
+
+.images-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.images-list li {
+    margin: 5px;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.images-list li img {
+    max-width: 200px;
+    height: auto;
+}
+
+form {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;;
+}
+
+button {
+    font-size: 100%;
+    color: #233142;
+    background-color: #f6c90e;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+input[type="file"] {
+    font-size: 100%;
+    color: #233142;
+    background-color: #f6c90e;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    display: flex;
+}
